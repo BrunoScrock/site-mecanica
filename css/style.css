@@ -529,7 +529,7 @@ header.glass::before { opacity: 1; }
   position: relative;
   z-index: 10;
   width: 100%;
-  padding: calc(var(--header-height) + 70px) 0 110px;
+  padding: calc(var(--header-height) + 70px) 24px 110px;
 }
 
 .hero-text {
@@ -2731,7 +2731,7 @@ body.no-scroll { overflow: hidden; }
   .btn-header i { width: 20px; height: 20px; margin: 0; }
 
   .hero { min-height: 100svh; }
-  .hero-content { padding: calc(var(--header-height) + 50px) 0 90px; }
+  .hero-content { padding: calc(var(--header-height) + 50px) 24px 90px; }
   .hero-text { text-align: left; }
   .hero-badges { flex-direction: column; align-items: flex-start; gap: 8px; }
   .hero-title .line-1 .line-inner { font-size: clamp(3.4rem, 15vw, 6rem); }
