@@ -66,7 +66,7 @@ Com `coordenadas` preenchido, o site exibe o mapa embutido. Sem ele, mostra um p
 ### 4. Imagens
 Todas as imagens atuais são **demonstrativas** (fotos de banco de imagens). Substitua pelos arquivos reais mantendo **os mesmos caminhos e nomes**:
 
-- `assets/images/hero/hero-01.jpg` — foto do hero
+- `assets/images/hero/hero-02.png` — foto do hero
 - `assets/images/oficina/oficina-01.jpg` … `oficina-06.jpg` — galeria da oficina
 - `assets/images/mecanicos/mecanico-01.jpg` — foto da equipe
 - `assets/images/servicos/*.jpg` — capas dos 6 serviços

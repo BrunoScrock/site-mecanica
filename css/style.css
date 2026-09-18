@@ -425,7 +425,10 @@ header.glass::before { opacity: 1; }
 
 .hero-bg {
   position: absolute;
-  inset: 0;
+  top: -180px;
+  bottom: -180px;
+  left: 0;
+  right: 0;
   z-index: 0;
   overflow: hidden;
   will-change: transform;
