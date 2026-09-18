@@ -26,24 +26,24 @@ const CONFIG = {
      CONTATO  —  WhatsApp no formato 55 + DDD + número (somente dígitos)
      Ex.: "5541999999999"
      ------------------------------------------------------------------ */
-  whatsapp: "",
-  telefone: "[INSERIR TELEFONE]",
-  email: "[INSERIR E-MAIL]",
+  whatsapp: "5541987835191",
+  telefone: "(41) 98783-5191",
+  email: "",
 
   /* ------------------------------------------------------------------
      LOCALIZAÇÃO
      ------------------------------------------------------------------ */
-  cidade: "[INSERIR CIDADE]",
-  endereco: "[INSERIR ENDEREÇO]",
-  atendimento: "[INSERIR ÁREA DE ATENDIMENTO]",   // ex.: "Curitiba e Região"
+  cidade: "Curitiba - PR",
+  endereco: "Av. Anita Garibaldi, 3487 - Juvevê",
+  atendimento: "Curitiba e Região",
   // Coordenadas opcionais (latitude/longitude) para exibir o mapa. Ex.: { lat: -25.42, lng: -49.27 }
   coordenadas: null,
-  horario: "[INSERIR HORÁRIO]",                    // ex.: "Seg a Sex: 08h às 18h | Sáb: 08h às 12h"
+  horario: "Seg a Sex: 08:00 às 18:00",
 
   /* ------------------------------------------------------------------
      REDES SOCIAIS (URLs completas ou vazio)
      ------------------------------------------------------------------ */
-  instagram: "",
+  instagram: "https://www.instagram.com/autoi9cwbmecanica/",
   facebook: "",
 
   /* ------------------------------------------------------------------
@@ -509,16 +509,3 @@ const EQUIPE = {
   descricao: "[INSERIR DESCRIÇÃO]",
   foto: "assets/images/mecanicos/mecanico-01.jpg"
 };
-
-/* ==========================================================================
-   ÁREA DE ATENDIMENTO
-   ========================================================================== */
-
-const AREA_ATENDIMENTO = [
-  "[INSERIR CIDADE 01]",
-  "[INSERIR CIDADE 02]",
-  "[INSERIR BAIRRO/REGIÃO 01]",
-  "[INSERIR BAIRRO/REGIÃO 02]",
-  "[INSERIR REGIÃO 01]",
-  "[INSERIR REGIÃO 02]"
-];

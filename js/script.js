@@ -631,13 +631,6 @@ function montarStats() {
    -------------------------------------------------------------------------- */
 
 function montarLocalizacao() {
-  const chips = document.getElementById("areaChips");
-  if (chips && Array.isArray(AREA_ATENDIMENTO)) {
-    chips.innerHTML = AREA_ATENDIMENTO.map(function (c) {
-      return '<span class="area-chip">' + c + '</span>';
-    }).join("");
-  }
-
   const placeholder = document.getElementById("mapPlaceholder");
   const iframe = document.getElementById("mapIframe");
   const texto = document.getElementById("mapPlaceholderTexto");

@@ -2386,46 +2386,6 @@ body.no-scroll { overflow: hidden; }
   max-width: 320px;
 }
 
-.area-servico {
-  margin-top: 60px;
-  text-align: center;
-}
-
-.area-servico h3 {
-  font-family: var(--font-display);
-  font-size: 2rem;
-  font-weight: 400;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: var(--white);
-  margin-bottom: 22px;
-}
-
-.area-servico h3 em { font-style: normal; color: var(--red); }
-
-.area-chips {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
-}
-
-.area-chip {
-  padding: 10px 20px;
-  border: 1px solid var(--border);
-  border-radius: 2px;
-  background: rgba(255, 255, 255, 0.03);
-  color: var(--gray);
-  font-size: 0.88rem;
-  font-weight: 500;
-  transition: border-color 0.25s, color 0.25s;
-}
-
-.area-chip:hover {
-  border-color: rgba(var(--red-rgb), 0.5);
-  color: var(--white);
-}
-
 /* --------------------------------------------------------------------------
    20. CTA FINAL
    -------------------------------------------------------------------------- */
