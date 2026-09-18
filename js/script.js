@@ -850,7 +850,12 @@ function iniciarScrollSpy() {
    -------------------------------------------------------------------------- */
 
 function inicializarReveal() {
-  if (!("IntersectionObserver" in window)) return;
+  if (!("IntersectionObserver" in window)) {
+    document.querySelectorAll(".reveal, [data-reveal], .reveal-left, .reveal-right").forEach(function (el) {
+      el.classList.add("visible");
+    });
+    return;
+  }
 
   const seletoresGrades = [
     ".services-grid > *",
@@ -861,7 +866,7 @@ function inicializarReveal() {
   ];
 
   const alvos = document.querySelectorAll(
-    "[data-reveal], .reveal-left, .reveal-right, " + seletoresGrades.join(", ")
+    "[data-reveal], .reveal, .reveal-left, .reveal-right, " + seletoresGrades.join(", ")
   );
   if (!alvos.length) return;
 
