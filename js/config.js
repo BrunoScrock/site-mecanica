@@ -37,14 +37,14 @@ const CONFIG = {
   endereco: "Av. Anita Garibaldi, 3487 - Juvevê",
   atendimento: "Curitiba e Região",
   // Coordenadas opcionais (latitude/longitude) para exibir o mapa. Ex.: { lat: -25.42, lng: -49.27 }
-  coordenadas: null,
+  coordenadas: { lat: -25.3824739, lng: -49.261813 },
   horario: "Seg a Sex: 08:00 às 18:00",
 
   /* ------------------------------------------------------------------
      REDES SOCIAIS (URLs completas ou vazio)
      ------------------------------------------------------------------ */
   instagram: "https://www.instagram.com/autoi9cwbmecanica/",
-  facebook: "",
+  facebook: "https://www.facebook.com/people/Auto-Inove/61550746347921/",
 
   /* ------------------------------------------------------------------
      MENSAGENS DO WHATSAPP
