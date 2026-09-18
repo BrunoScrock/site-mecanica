@@ -354,7 +354,7 @@ const ANTES_DEPOIS = [
     categoria: "Motor",
     antes: "assets/images/antes-depois/projeto-01/antes.jpg",
     depois: "assets/images/antes-depois/projeto-01/depois.jpg",
-    descricao: "Motor antes e depois do serviço. [INSERIR DESCRIÇÃO REAL]"
+    descricao: "Motor com manutenção completa: diagnóstico, reparo e ajuste fino."
   },
   {
     id: "projeto-02",
@@ -362,7 +362,7 @@ const ANTES_DEPOIS = [
     categoria: "Freios",
     antes: "assets/images/antes-depois/projeto-02/antes.jpg",
     depois: "assets/images/antes-depois/projeto-02/depois.jpg",
-    descricao: "Componentes antes e depois. [INSERIR DESCRIÇÃO REAL]"
+    descricao: "Troca de discos, pastilhas e revisão completa do sistema de freios."
   },
   {
     id: "projeto-03",
@@ -370,7 +370,7 @@ const ANTES_DEPOIS = [
     categoria: "Suspensão",
     antes: "assets/images/antes-depois/projeto-03/antes.jpg",
     depois: "assets/images/antes-depois/projeto-03/depois.jpg",
-    descricao: "Suspensão antes e depois. [INSERIR DESCRIÇÃO REAL]"
+    descricao: "Revisão da suspensão com troca de amortecedores e alinhamento."
   },
   {
     id: "projeto-04",
@@ -378,7 +378,7 @@ const ANTES_DEPOIS = [
     categoria: "Revisão",
     antes: "assets/images/antes-depois/projeto-04/antes.jpg",
     depois: "assets/images/antes-depois/projeto-04/depois.jpg",
-    descricao: "Veículo antes e depois da manutenção. [INSERIR DESCRIÇÃO REAL]"
+    descricao: "Revisão geral completa: inspeção, manutenção preventiva e corretiva."
   }
 ];
 
