@@ -1,0 +1,37 @@
+# INOVE Mecânica
+
+> INOVE Mecânica é uma oficina automotiva que oferece diagnóstico cuidadoso, manutenção preventiva e corretiva (revisão, freios, suspensão, motor, troca de óleo) com transparência e atendimento profissional.
+
+## Visão geral do projeto
+
+Site institucional estático (HTML + CSS + JavaScript puro) para a oficina INOVE Mecânica, com identidade visual industrial nas cores preto, branco e vermelho. Publicável em GitHub Pages ou qualquer hospedagem estática.
+
+- Tipo: site institucional / oficina mecânica
+- Idioma: pt-BR
+- Público: clientes que buscam serviços automotivos na região da oficina
+
+## Arquivos principais
+
+- `index.html` — página principal com toda a estrutura, seções e âncoras (hero, sobre, serviços, antes/depois, portfólio, oficina, equipe, diferenciais, processo, estatísticas, contato, localização, CTA final, rodapé e botão flutuante de WhatsApp).
+- `js/config.js` — configuração centralizada: identidade, contatos (WhatsApp/telefone/e-mail), endereço, horário, redes sociais, textos institucionais, serviços, portfólio, antes/depois, diferenciais, processo, estatísticas, galeria da oficina, equipe e área de atendimento. Valores desconhecidos permanecem como `[INSERIR ...]` (não inventar dados da empresa).
+- `js/script.js` — funcionalidades: integração WhatsApp, formulário de orçamento, slider antes/depois, filtros e lightbox do portfólio, menu mobile, rolagem suave, scroll spy, animações de entrada e parallax.
+- `css/style.css` — todos os estilos e responsividade.
+- `assets/images/` — imagens (atualmente demonstrativas, substituir pelas reais mantendo os caminhos).
+
+## Como manter
+
+1. Edite dados em `js/config.js` (única fonte de verdade do conteúdo).
+2. Para o WhatsApp funcionar, preencha `CONFIG.whatsapp` (55 + DDD + número, somente dígitos).
+3. Para o mapa aparecer, preencha `CONFIG.endereco` e `CONFIG.coordenadas` (latitude/longitude).
+4. Substitua as imagens de `assets/images/` mantendo os nomes de arquivo atuais.
+5. Ao publicar, atualize o domínio em `index.html` (canonical/OG), `robots.txt` e `sitemap.xml`.
+
+## Publicação
+
+Subir os arquivos para um repositório GitHub e habilitar GitHub Pages (branch `main`, pasta raiz), ou servir com qualquer servidor estático.
+
+## Dependências externas
+
+- Fontes: Google Fonts (Bebas Neue, Rajdhani, Inter)
+- Ícones: Lucide via CDN (unpkg)
+- Mapa: Google Maps Embed / OpenStreetMap (apenas quando configurado)

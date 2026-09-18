@@ -1,0 +1,7 @@
+# INOVE Mecânica — robôs de busca
+# Publicado em: https://brunoscrock.github.io/site-mecanica/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://brunoscrock.github.io/site-mecanica/sitemap.xml

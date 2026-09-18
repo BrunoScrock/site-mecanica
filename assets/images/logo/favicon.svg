@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="#080808"/>
+  <circle cx="32" cy="32" r="17" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  <g>
+    <g transform="rotate(0 32 32)"><rect x="29.25" y="12.5" width="5.5" height="8" rx="1.5" fill="#FFFFFF"/></g>
+    <g transform="rotate(45 32 32)"><rect x="29.25" y="12.5" width="5.5" height="8" rx="1.5" fill="#FFFFFF"/></g>
+    <g transform="rotate(90 32 32)"><rect x="29.25" y="12.5" width="5.5" height="8" rx="1.5" fill="#FFFFFF"/></g>
+    <g transform="rotate(135 32 32)"><rect x="29.25" y="12.5" width="5.5" height="8" rx="1.5" fill="#FFFFFF"/></g>
+    <g transform="rotate(180 32 32)"><rect x="29.25" y="12.5" width="5.5" height="8" rx="1.5" fill="#FFFFFF"/></g>
+    <g transform="rotate(225 32 32)"><rect x="29.25" y="12.5" width="5.5" height="8" rx="1.5" fill="#FFFFFF"/></g>
+    <g transform="rotate(270 32 32)"><rect x="29.25" y="12.5" width="5.5" height="8" rx="1.5" fill="#FFFFFF"/></g>
+    <g transform="rotate(315 32 32)"><rect x="29.25" y="12.5" width="5.5" height="8" rx="1.5" fill="#FFFFFF"/></g>
+  </g>
+  <circle cx="32" cy="32" r="6" fill="#D71920"/>
+</svg>
