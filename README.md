@@ -26,7 +26,7 @@ inove-mecanica/
 │   └── script.js           # Funcionalidades e renderização
 └── assets/
     └── images/
-        ├── logo/           # logo-inove.svg + favicon.svg
+        ├── logo/           # logo-inove.png + favicon.svg
         ├── hero/           # imagem do hero (demonstrativa)
         ├── oficina/        # galeria "Nossa Oficina" (demonstrativa)
         ├── mecanicos/      # foto da equipe (demonstrativa)
