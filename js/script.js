@@ -460,8 +460,6 @@ function montarAntesDepois() {
     const depois = document.getElementById("adImgDepois");
     if (antes) antes.src = projeto.antes;
     if (depois) depois.src = projeto.depois;
-    const bg = document.getElementById("adBg");
-    if (bg) bg.src = projeto.depois;
     preencherSe("adCategoria", projeto.categoria);
     preencherSe("adTitulo", projeto.titulo);
     preencherSe("adDescricao", projeto.descricao);
