@@ -503,8 +503,8 @@ const OFICINA = [
    ========================================================================== */
 
 const EQUIPE = {
-  nome: "[INSERIR NOME]",
-  funcao: "[INSERIR FUNÇÃO]",
-  descricao: "[INSERIR DESCRIÇÃO]",
+  nome: "Guilherme Pascoal Junior",
+  funcao: "Gerente",
+  descricao: "Com ampla experiência no setor automotivo, atua há anos na área de mecânica, reunindo conhecimento técnico e experiência prática na manutenção e reparação de veículos. Atualmente, como gerente da empresa, também é responsável pela gestão da equipe, acompanhamento dos serviços e garantia da qualidade dos atendimentos, sempre buscando oferecer soluções eficientes, segurança e confiança aos clientes.",
   foto: "assets/images/mecanicos/mecanico-01.jpg"
 };
