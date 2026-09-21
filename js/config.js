@@ -494,9 +494,9 @@ const OFICINA = [
   { imagem: "assets/images/oficina/oficina-01.jpg", titulo: "Nossa oficina" },
   { imagem: "assets/images/oficina/oficina-02.jpg", titulo: "Estrutura" },
   { imagem: "assets/images/oficina/oficina-03.jpg", titulo: "Área de trabalho" },
-  { imagem: "assets/images/oficina/oficina-04.jpg", titulo: "Atendimento" },
   { imagem: "assets/images/oficina/oficina-05.jpg", titulo: "Nosso espaço" },
-  { imagem: "assets/images/oficina/oficina-06.jpg", titulo: "Dia a dia" }
+  { imagem: "assets/images/oficina/oficina-06.jpg", titulo: "Dia a dia" },
+  { imagem: "assets/images/oficina/oficina-07.jpg", titulo: "Nossa estrutura" }
 ];
 
 /* ==========================================================================
