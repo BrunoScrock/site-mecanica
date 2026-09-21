@@ -57,9 +57,9 @@ const CONFIG = {
      ------------------------------------------------------------------ */
   sobreTitulo: "Cuidado técnico com o seu veículo",
   sobreTexto: [
-    "[INSERIR HISTÓRIA DA INOVE]",
-    "[INSERIR DIFERENCIAL]",
-    "[INSERIR CIDADE] — [INSERIR EXPERIÊNCIA]"
+    "A INOVE Mecânica é uma oficina mecânica multimarcas localizada em Curitiba, Paraná, especializada em oferecer soluções completas para manutenção e cuidado automotivo.",
+    "Com serviços de mecânica especializada, automatizados, alinhamento, balanceamento e geometria, a INOVE busca proporcionar um atendimento preciso e cuidadoso.",
+    "Para diferentes marcas e modelos de veículos, contribuindo para seu bom funcionamento, segurança e desempenho."
   ],
   sobreDestaques: [
     "Atenção aos detalhes",
