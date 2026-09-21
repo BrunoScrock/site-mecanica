@@ -480,10 +480,10 @@ const PROCESSO = [
    ========================================================================== */
 
 const ESTATISTICAS = [
-  { valor: "[INSERIR NÚMERO]", prefixo: "+", rotulo: "Veículos atendidos" },
-  { valor: "[INSERIR NÚMERO]", prefixo: "+", rotulo: "Serviços realizados" },
-  { valor: "[INSERIR NÚMERO]", prefixo: "+", rotulo: "Clientes" },
-  { valor: "[INSERIR NÚMERO]", prefixo: "", sufixo: "%", rotulo: "Compromisso" }
+  { valor: "1000", prefixo: "+", rotulo: "Veículos atendidos" },
+  { valor: "1000", prefixo: "+", rotulo: "Serviços realizados" },
+  { valor: "1000", prefixo: "+", rotulo: "Clientes" },
+  { valor: "100", prefixo: "", sufixo: "%", rotulo: "Compromisso" }
 ];
 
 /* ==========================================================================
