@@ -2395,8 +2395,6 @@ body.no-scroll { overflow: hidden; }
   text-align: center;
   color: var(--white);
   overflow: hidden;
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
 }
 
 .final-cta-bg {
@@ -2414,9 +2412,9 @@ body.no-scroll { overflow: hidden; }
 
 .final-cta-overlay {
   position: absolute;
-  inset: 0;
+  inset: -1px 0;
   background:
-    linear-gradient(180deg, rgba(8, 8, 8, 0.92) 0%, rgba(8, 8, 8, 0.6) 40%, rgba(8, 8, 8, 0.6) 60%, rgba(8, 8, 8, 0.94) 100%),
+    linear-gradient(180deg, rgba(8, 8, 8, 1) 0%, rgba(8, 8, 8, 0.6) 40%, rgba(8, 8, 8, 0.6) 60%, rgba(8, 8, 8, 1) 100%),
     radial-gradient(ellipse at center, rgba(var(--red-rgb), 0.18), transparent 60%);
 }
 
