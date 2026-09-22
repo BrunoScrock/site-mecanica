@@ -2566,8 +2566,8 @@ body.no-scroll { overflow: hidden; }
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   color: var(--white);
-  width: 56px;
-  height: 56px;
+  width: 62px;
+  height: 62px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -2832,8 +2832,8 @@ body.no-scroll { overflow: hidden; }
   .avaliacao-float {
     bottom: 86px;
     right: 18px;
-    width: 50px;
-    height: 50px;
+    width: 56px;
+    height: 56px;
   }
   .avaliacao-float svg { width: 24px; height: 24px; }
   .avaliacao-float-tip { display: none; }
