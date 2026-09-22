@@ -250,9 +250,12 @@ function aplicarConfiguracao() {
   const facebook = document.getElementById("footer-facebook");
   if (facebook && CONFIG.facebook) facebook.setAttribute("href", CONFIG.facebook);
 
-  // Link de avaliação no Google
+  // Botão de avaliação no Google (sem destino definido por enquanto)
   const avaliacaoFloat = document.getElementById("avaliacao-float");
-  if (avaliacaoFloat && CONFIG.avaliacao) avaliacaoFloat.setAttribute("href", CONFIG.avaliacao);
+  if (avaliacaoFloat) avaliacaoFloat.setAttribute("href", "#");
+  document.querySelectorAll(".avaliacao-float").forEach(function (el) {
+    el.addEventListener("click", function (e) { e.preventDefault(); });
+  });
 
   // WhatsApp (links .js-whatsapp e botão flutuante)
   if (obterWhatsapp().length >= 10) {
