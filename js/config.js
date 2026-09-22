@@ -172,15 +172,6 @@ const PORTFOLIO = [
     tamanho: "padrao"
   },
   {
-    id: "motor-03",
-    categoria: "Motor",
-    titulo: "Revisão de componentes",
-    descricao: "Avaliação e substituição de componentes. [INSERIR DESCRIÇÃO REAL]",
-    imagem: "assets/images/portfolio/motor/motor-03.jpg",
-    imagens: ["assets/images/portfolio/motor/motor-03.jpg"],
-    tamanho: "vertical"
-  },
-  {
     id: "freios-01",
     categoria: "Freios",
     titulo: "Manutenção de freios",
@@ -211,58 +202,15 @@ const PORTFOLIO = [
     tamanho: "padrao"
   },
   {
-    id: "suspensao-02",
-    categoria: "Suspensão",
-    titulo: "Revisão de amortecedores",
-    descricao: "Verificação e manutenção de amortecedores. [INSERIR DESCRIÇÃO REAL]",
-    imagem: "assets/images/portfolio/suspensao/suspensao-02.jpg",
-    imagens: [
-      "assets/images/portfolio/suspensao/suspensao-02.jpg",
-      "assets/images/portfolio/suspensao/suspensao-01.jpg"
-    ],
-    tamanho: "vertical"
-  },
-  {
     id: "revisao-01",
     categoria: "Revisão",
     titulo: "Revisão preventiva",
     descricao: "Revisão preventiva completa. [INSERIR DESCRIÇÃO REAL]",
     imagem: "assets/images/portfolio/revisao/revisao-01.jpg",
     imagens: [
-      "assets/images/portfolio/revisao/revisao-01.jpg",
-      "assets/images/portfolio/revisao/revisao-02.jpg"
-    ],
-    tamanho: "grande"
-  },
-  {
-    id: "revisao-02",
-    categoria: "Revisão",
-    titulo: "Check-up do veículo",
-    descricao: "Avaliação geral do veículo. [INSERIR DESCRIÇÃO REAL]",
-    imagem: "assets/images/portfolio/revisao/revisao-02.jpg",
-    imagens: ["assets/images/portfolio/revisao/revisao-02.jpg"],
-    tamanho: "padrao"
-  },
-  {
-    id: "revisao-03",
-    categoria: "Revisão",
-    titulo: "Manutenção geral",
-    descricao: "Manutenção preventiva e corretiva. [INSERIR DESCRIÇÃO REAL]",
-    imagem: "assets/images/portfolio/revisao/revisao-03.jpg",
-    imagens: ["assets/images/portfolio/revisao/revisao-03.jpg"],
-    tamanho: "horizontal"
-  },
-  {
-    id: "revisao-04",
-    categoria: "Revisão",
-    titulo: "Itens revisados",
-    descricao: "Conferência dos itens de segurança. [INSERIR DESCRIÇÃO REAL]",
-    imagem: "assets/images/portfolio/revisao/revisao-04.jpg",
-    imagens: [
-      "assets/images/portfolio/revisao/revisao-04.jpg",
       "assets/images/portfolio/revisao/revisao-01.jpg"
     ],
-    tamanho: "vertical"
+    tamanho: "grande"
   },
   {
     id: "outros-01",
@@ -330,16 +278,7 @@ const PORTFOLIO = [
     imagens: ["assets/images/portfolio/outros/outros-07.jpg"],
     tamanho: "padrao"
   },
-  {
-    id: "outros-07",
-    categoria: "Outros",
-    titulo: "Serviço completo",
-    descricao: "Serviço automotivo completo. [INSERIR DESCRIÇÃO REAL]",
-    imagem: "assets/images/portfolio/outros/outros-08.jpg",
-    imagens: ["assets/images/portfolio/outros/outros-08.jpg"],
-    tamanho: "horizontal"
-  }
-];
+]
 
 /* ==========================================================================
    ANTES → DEPOIS
