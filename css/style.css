@@ -18,6 +18,7 @@
   --red-dark: #A80F15;
   --border: rgba(255, 255, 255, 0.12);
   --red-rgb: 215, 25, 32;
+  --gold-light: #e6c884;
 
   --whatsapp: #25d366;
   --whatsapp-hover: #1da851;
@@ -2571,7 +2572,7 @@ body.no-scroll { overflow: hidden; }
   -webkit-backdrop-filter: blur(12px) saturate(140%);
   backdrop-filter: blur(12px) saturate(140%);
   border: 1px solid rgba(255, 255, 255, 0.16);
-  color: var(--red);
+  color: var(--gold-light);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
   z-index: 999;
   transition: transform 0.3s, background 0.3s, border-color 0.3s;
@@ -2584,7 +2585,10 @@ body.no-scroll { overflow: hidden; }
   border-color: rgba(var(--red-rgb), 0.45);
 }
 
-.avaliacao-float svg { width: 30px; height: 30px; }
+.avaliacao-float svg, .avaliacao-float i {
+  width: 30px;
+  height: 30px;
+}
 
 .avaliacao-float-tip {
   position: absolute;
@@ -2844,7 +2848,7 @@ body.no-scroll { overflow: hidden; }
     width: 56px;
     height: 56px;
   }
-  .avaliacao-float svg { width: 28px; height: 28px; }
+  .avaliacao-float svg, .avaliacao-float i { width: 28px; height: 28px; }
   .avaliacao-float-tip { display: none; }
 
   /* Garante que o botão flutuante não cubra o formulário */
