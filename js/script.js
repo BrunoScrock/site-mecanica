@@ -252,9 +252,10 @@ function aplicarConfiguracao() {
 
   // Botão de avaliação no Google (sem destino definido por enquanto)
   const avaliacaoFloat = document.getElementById("avaliacao-float");
-  if (avaliacaoFloat) avaliacaoFloat.setAttribute("href", "#");
+  if (avaliacaoFloat && CONFIG.avaliacao) avaliacaoFloat.setAttribute("href", CONFIG.avaliacao);
   document.querySelectorAll(".avaliacao-float").forEach(function (el) {
-    el.addEventListener("click", function (e) { e.preventDefault(); });
+    el.setAttribute("target", "_blank");
+    el.setAttribute("rel", "noopener");
   });
 
   // WhatsApp (links .js-whatsapp e botão flutuante)

@@ -46,7 +46,7 @@ const CONFIG = {
   instagram: "https://www.instagram.com/autoi9cwbmecanica/",
   facebook: "https://www.facebook.com/people/Auto-Inove/61550746347921/",
   // Link para avaliação no Google (Maps)
-  avaliacao: "https://www.google.com/maps/search/?api=1&query=Av.+Anita+Garibaldi+3487+Juvev%C3%AA,+Curitiba",
+  avaliacao: "https://search.google.com/local/writereview?placeid=ChIJ-_SvwS3n3JQRRU9pRX3WxF4",
 
   /* ------------------------------------------------------------------
      MENSAGENS DO WHATSAPP
