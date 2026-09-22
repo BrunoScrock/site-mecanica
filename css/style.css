@@ -2555,8 +2555,62 @@ body.no-scroll { overflow: hidden; }
 }
 
 /* --------------------------------------------------------------------------
-   22. BOTÃO FLUTUANTE WHATSAPP
-   -------------------------------------------------------------------------- */
+    22. BOTÕES FLUTUANTES (AVALIAÇÃO + WHATSAPP)
+    -------------------------------------------------------------------------- */
+.avaliacao-float {
+  position: fixed;
+  bottom: 102px;
+  right: 28px;
+  background: rgba(120, 120, 125, 0.35);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: var(--white);
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+  z-index: 999;
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.avaliacao-float:hover {
+  transform: scale(1.12);
+  background: rgba(140, 140, 145, 0.5);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.55);
+}
+
+.avaliacao-float svg { width: 26px; height: 26px; }
+
+.avaliacao-float-tip {
+  position: absolute;
+  right: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--dark-gray);
+  color: var(--white);
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+  padding: 8px 14px;
+  border-radius: 4px;
+  border: 1px solid rgba(var(--red-rgb), 0.35);
+  box-shadow: var(--shadow);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+  pointer-events: none;
+}
+
+.avaliacao-float:hover .avaliacao-float-tip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50%) translateX(-4px);
+}
+
 .whatsapp-float {
   position: fixed;
   bottom: 28px;
@@ -2774,6 +2828,15 @@ body.no-scroll { overflow: hidden; }
   }
   .whatsapp-float svg { width: 28px; height: 28px; }
   .whatsapp-float-tip { display: none; }
+
+  .avaliacao-float {
+    bottom: 86px;
+    right: 18px;
+    width: 50px;
+    height: 50px;
+  }
+  .avaliacao-float svg { width: 24px; height: 24px; }
+  .avaliacao-float-tip { display: none; }
 
   /* Garante que o botão flutuante não cubra o formulário */
   .contato { padding-bottom: 140px; }

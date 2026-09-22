@@ -250,6 +250,10 @@ function aplicarConfiguracao() {
   const facebook = document.getElementById("footer-facebook");
   if (facebook && CONFIG.facebook) facebook.setAttribute("href", CONFIG.facebook);
 
+  // Link de avaliação no Google
+  const avaliacaoFloat = document.getElementById("avaliacao-float");
+  if (avaliacaoFloat && CONFIG.avaliacao) avaliacaoFloat.setAttribute("href", CONFIG.avaliacao);
+
   // WhatsApp (links .js-whatsapp e botão flutuante)
   if (obterWhatsapp().length >= 10) {
     const urlWhats = gerarUrlWhatsApp(CONFIG.mensagemPadrao);
