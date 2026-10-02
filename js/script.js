@@ -936,7 +936,31 @@ function inicializarParallax() {
    INICIALIZAÇÃO
    -------------------------------------------------------------------------- */
 
+function inicializarLoader() {
+  const loader = document.getElementById("loader");
+  if (!loader) return;
+
+  function esconder() {
+    loader.classList.add("is-oculto");
+    setTimeout(function () {
+      if (loader.parentNode) loader.parentNode.removeChild(loader);
+    }, 700);
+  }
+
+  if (document.readyState === "complete") {
+    setTimeout(esconder, 420);
+  } else {
+    window.addEventListener("load", function () {
+      setTimeout(esconder, 420);
+    });
+  }
+
+  // Rede de segurança: 4 segundos e o loader sai de qualquer forma
+  setTimeout(esconder, 4000);
+}
+
 document.addEventListener("DOMContentLoaded", function () {
+  inicializarLoader();
   aplicarConfiguracao();
 
   montarServicos();

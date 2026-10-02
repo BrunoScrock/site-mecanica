@@ -44,7 +44,7 @@
   <script src="https://unpkg.com/lucide@latest" defer></script>
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="css/style.css?v=28">
+  <link rel="stylesheet" href="css/style.css?v=29">
 
   <!--
 SCHEMA.ORG (dados estruturados)
@@ -75,7 +75,18 @@ SCHEMA.ORG (dados estruturados)
 </head>
 <body>
 
+<!-- Tela de carregamento (estilo ScrockSys) -->
+<div class="loader" id="loader" role="status" aria-live="polite">
+  <div class="loader__caixa" aria-hidden="true">
+    <span class="loader__barra"></span>
+    <span class="loader__barra"></span>
+    <span class="loader__barra"></span>
+  </div>
+  <p class="loader__texto">Carregando experiência<span class="loader__pontos"></span></p>
+</div>
+
 <noscript>
+  <style>#loader { display: none; }</style>
   <p style="background:#D71920;color:#fff;text-align:center;padding:10px;font-family:sans-serif;">
     Ative o JavaScript para uma melhor experiência neste site.
   </p>
@@ -262,10 +273,10 @@ SCHEMA.ORG (dados estruturados)
       <div class="ad-stage">
         <div class="ad-slider" id="adSlider" tabindex="0" aria-label="Comparação antes e depois">
           <div class="ad-layer ad-after">
-            <img id="adImgDepois" src="assets/images/antes-depois/projeto-01/depois.jpg?v=28" alt="Depois do serviço">
+            <img id="adImgDepois" src="assets/images/antes-depois/projeto-01/depois.jpg?v=29" alt="Depois do serviço">
           </div>
           <div class="ad-layer ad-before" id="adBefore">
-            <img id="adImgAntes" src="assets/images/antes-depois/projeto-01/antes.jpg?v=28" alt="Antes do serviço">
+            <img id="adImgAntes" src="assets/images/antes-depois/projeto-01/antes.jpg?v=29" alt="Antes do serviço">
           </div>
           <div class="ad-tag ad-tag-antes" aria-hidden="true">Antes</div>
           <div class="ad-tag ad-tag-depois" aria-hidden="true">Depois</div>
@@ -624,8 +635,8 @@ SCHEMA.ORG (dados estruturados)
 </a>
 
 <!-- Scripts -->
-<script src="js/config.js?v=28"></script>
-<script src="js/script.js?v=28"></script>
+<script src="js/config.js?v=29"></script>
+<script src="js/script.js?v=29"></script>
 </body>
 </html>
 
